@@ -1,0 +1,42 @@
+Microsoft Windows [versão 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Windows\system32>cd C:\Users\hkopsch\workspace\trabalhopvm\bin
+
+C:\Users\hkopsch\workspace\trabalhopvm\bin>set classpath=.
+
+C:\Users\hkopsch\workspace\trabalhopvm\bin>start java jpvm.jpvmDaemon
+
+C:\Users\hkopsch\workspace\trabalhopvm\bin>start java jpvm.jpvmConsole
+
+C:\Users\hkopsch\workspace\trabalhopvm\bin>java examples.exemplo_jpvm
+task id = MC-4228, port #37279
+inicializado como master
+workers taks:
+        MC-4228, port #37281
+        MC-4228, port #37282
+        Caique-PC, port #63794
+        Caique-PC, port #63795
+mandando mensagem para o worker 0
+recebeu resposta:
+recebeu : servidor, id: MC-4228, port #37279 cliente : MC-4228, port #37281
+com a tag 0 from MC-4228, port #37281
+mandando mensagem para o worker 1
+recebeu resposta:
+recebeu : servidor, id: MC-4228, port #37279 cliente : MC-4228, port #37282
+com a tag 0 from MC-4228, port #37282
+mandando mensagem para o worker 2
+recebeu resposta:
+recebeu : servidor, id: MC-4228, port #37279 cliente : Caique-PC, port #63794
+com a tag 0 from Caique-PC, port #63794
+mandando mensagem para o worker 3
+recebeu resposta:
+recebeu : servidor, id: MC-4228, port #37279 cliente : Caique-PC, port #63795
+com a tag 0 from Caique-PC, port #63795
+
+C:\Users\hkopsch\workspace\trabalhopvm\bin>java examples.hello
+Task Id: MC-4228, port #37434
+
+add
+hostname = caique-pc
+port number =  59061
